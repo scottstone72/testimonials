@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Testimonial
+
+# Model Form Field configuration
+form: $/stone/testimonials/models/testimonial/fields.yaml
+
+# Model Class name
+modelClass: Stone\Testimonials\Models\Testimonial
+
+# Default redirect location
+defaultRedirect: stone/testimonials/testimonial
+
+# Create page
+create:
+    title: Create Testimonial
+    redirect: stone/testimonials/testimonial/update/:id
+    redirectClose: stone/testimonials/testimonial
+
+# Update page
+update:
+    title: Edit Testimonial
+    redirect: stone/testimonials/testimonial
+    redirectClose: stone/testimonials/testimonial
+
+# Preview page
+preview:
+    title: Preview Testimonial

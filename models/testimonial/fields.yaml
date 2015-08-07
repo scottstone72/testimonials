@@ -1,0 +1,24 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+
+    name:
+        label: Name
+        description: The name of the user
+        type: text
+
+    message:
+        label: Message
+        description: The message the user has submitted
+        type: textarea
+        size: small
+
+    is_allowed:
+        label: Is Approved?
+        type: switch
+        comment: If checked this testomonial will be shown on the website

@@ -1,0 +1,4 @@
+1.0.1: First version of Testimonials
+1.0.2:
+    - Created table for user testimonials
+    - create_testimonials_table.php

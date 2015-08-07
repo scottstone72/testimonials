@@ -1,0 +1,14 @@
+<ul class="no-bullet">
+    {% for testimonial in __SELF__.testimonials %}
+    <li>
+        <div class="testimonial">
+            <blockquote>
+                <div><i class="fa fa-quote-left fa-1x"></i>&nbsp {{ testimonial.message }} &nbsp<i
+                        class="fa fa-quote-right"></i></div>
+                <cite class="right">{{ testimonial.name }}<br>{{ testimonial.created_at }}</cite>
+            </blockquote>
+        </div>
+        <hr>
+    </li>
+    {% endfor %}
+</ul>

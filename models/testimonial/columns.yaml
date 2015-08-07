@@ -1,0 +1,27 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: false
+
+    name:
+        label: Name
+        searchable: true
+        width: 10%
+
+    message:
+        label: Message
+        searchable: true
+        width: 60%
+
+    is_allowed:
+        label: Approved?
+        searchable: true
+
+
+    created_at:
+        label: Created
+        type: date
